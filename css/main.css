@@ -80,7 +80,8 @@ a {
 }
 
 .header_title {
-  font-size: 22px;
+  font-size: 24px;
+  font-family:'Salsa', cursive;
   text-transform: uppercase;
 }
 
