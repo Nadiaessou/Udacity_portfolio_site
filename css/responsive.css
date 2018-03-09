@@ -1,0 +1,63 @@
+@media screen and (max-width: 550px) {
+    /********* GENERAL *********/
+    h3 {
+        font-size: 18px;  
+    }
+
+    /********* HEADER *********/
+    .logo {
+        padding: 5px 0 0 10px;
+    }
+
+    .box {
+        margin-left: 90px;
+    }
+
+    .header_title {
+        font-size: 22px;
+    }
+
+    .header_description {
+        font-size: 16px;
+    }
+
+    .all_project .bloc {
+        float: none;
+        width: 100%;
+    }
+
+    footer li {
+        display: inherit;
+    }
+}
+
+
+@media screen and (min-width: 551px) and (max-width: 819px) {
+  .bloc {
+        float: left;
+        margin-right: 20px;
+        width: calc((100% - 20px)/2);
+    }
+
+    .bloc:last-of-type,
+    .bloc:nth-of-type(2),
+    .bloc:nth-of-type(4) {
+        margin-right: 0;
+    }  
+
+}
+
+
+@media screen and (min-width: 820px) {
+  .bloc {
+        float: left;
+        margin-right: 20px;
+        width: calc((100% - 40px)/3);
+    }
+
+    .bloc:last-of-type,
+    .bloc:nth-of-type(3) {
+        margin-right: 0;
+    }  
+
+}
